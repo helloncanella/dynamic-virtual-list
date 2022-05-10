@@ -1,6 +1,6 @@
 {
   "name": "dynamic-virtual-list",
-  "version": "1.0.7-0",
+  "version": "1.0.7-1",
   "description": "Render VaribleSizeList without specifying itemSize prop",
   "main": "./dist/myNumbers.js",
   "module": "./index.js",
