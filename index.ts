@@ -1,5 +1,5 @@
 import _ from "lodash";
-import ref from "/ref.json";
+import ref from "./ref.json";
 
 export default function myNumbers() {
   console.log(_);
