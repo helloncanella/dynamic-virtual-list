@@ -3,7 +3,7 @@
   "version": "1.0.7",
   "description": "Render VariableSizeList without specifying itemSize prop",
   "main": "./dist/index.js",
-  "module": "./index.js",
+  "module": "./src/DynamicVirtualList.ts",
   "scripts": {
     "example": "",
     "storybook": "start-storybook -p 6006",
