@@ -28,11 +28,11 @@ module.exports = {
   },
 
   externals: {
-    lodash: {
-      commonjs: "lodash",
-      commonjs2: "lodash",
-      amd: "lodash",
-      root: "_",
+    "react-window": {
+      commonjs: "react-window",
+      commonjs2: "react-window",
+      amd: "react-window",
+      root: "react-window",
     },
   },
 };

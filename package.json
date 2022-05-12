@@ -1,11 +1,13 @@
 {
   "name": "dynamic-virtual-list",
   "version": "1.0.7",
-  "description": "Render VaribleSizeList without specifying itemSize prop",
-  "main": "./dist/myNumbers.js",
+  "description": "Render VariableSizeList without specifying itemSize prop",
+  "main": "./dist/index.js",
   "module": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example": "",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -18,11 +20,27 @@
   },
   "homepage": "https://github.com/helloncanella/dynamic-virtual-list#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-interactions": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/react": "^6.4.22",
+    "@storybook/testing-library": "0.0.11",
     "@types/lodash": "^4.14.182",
+    "babel-loader": "^8.2.5",
     "lodash": "^4.17.21",
     "ts-loader": "^9.3.0",
     "typescript": "^4.6.4",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@rehooks/component-size": "^1.0.3",
+    "@types/react-window": "^1.8.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-virtualized-auto-sizer": "^1.0.6",
+    "react-window": "^1.8.7"
   }
 }
