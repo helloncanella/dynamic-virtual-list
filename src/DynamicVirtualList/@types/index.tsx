@@ -2,7 +2,7 @@ import { VariableSizeListProps } from "react-window";
 
 export type VirtualizedListProps = Omit<
   VariableSizeListProps,
-  "height" | "width"
+  "height" | "width" | "itemSize"
 > & {
   itemSize?: VariableSizeListProps["itemSize"];
 };
