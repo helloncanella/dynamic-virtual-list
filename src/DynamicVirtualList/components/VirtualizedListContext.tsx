@@ -1,6 +1,6 @@
 import React from "react";
 import { VariableSizeList } from "react-window";
-import { ItemAPI, VirtualizedListProps } from "./@types";
+import { ItemAPI, VirtualizedListProps } from "../@types";
 
 export default React.createContext<IVirtualizedListContext>(
   {} as IVirtualizedListContext
