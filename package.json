@@ -20,16 +20,6 @@
   },
   "homepage": "https://github.com/helloncanella/dynamic-virtual-list#readme",
   "devDependencies": {
-    "@babel/core": "^7.17.10",
-    "@storybook/addon-actions": "^6.4.22",
-    "@storybook/addon-essentials": "^6.4.22",
-    "@storybook/addon-interactions": "^6.4.22",
-    "@storybook/addon-links": "^6.4.22",
-    "@storybook/react": "^6.4.22",
-    "@storybook/testing-library": "0.0.11",
-    "@types/lodash": "^4.14.182",
-    "babel-loader": "^8.2.5",
-    "lodash": "^4.17.21",
     "ts-loader": "^9.3.0",
     "typescript": "^4.6.4",
     "webpack": "^5.72.1",
@@ -43,7 +33,6 @@
     "react-window": "^1.8.7"
   },
   "dependencies": {
-    "@rehooks/component-size": "^1.0.3",
-    "lorem-ipsum": "^2.0.4"
+    "@rehooks/component-size": "^1.0.3"
   }
 }
